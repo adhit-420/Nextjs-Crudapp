@@ -1,6 +1,6 @@
 export const GET =async (req:Request) => {
-    console.log('get')
-    // get a post by its id
+ const id=req.url;
+ console.log(id)
 }
 export const PUT =async (req:Request) => {
     console.log('put')
